@@ -1,0 +1,48 @@
+#logo{
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    .list{
+        display: flex;
+        gap: 80px;
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 550;
+            color: gray;
+            transition: 1s;
+            &:active{
+                transform: translateY(5px);
+                transition: .1s;
+            }
+            &:hover{
+                color: black;
+                transition: 2s;
+            }
+
+        }
+    }
+    .btn{
+        padding: 10px 40px;
+        border-radius: 8px;
+        background: rgb(16, 223, 16);
+        color: #fff;
+        border: none;
+        font-size: 19px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 1.3s;
+        &:active{
+            transform: translateY(3px);
+            transition: .3s;
+        }
+        &:hover{
+            background: green;
+            transition: 2s;
+        }
+    }
+}

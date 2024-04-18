@@ -1,0 +1,36 @@
+@import url(./Componenets/Page1/Page1.css);
+@import url(./Componenets/Page2/Page2.css);
+@import url(./Componenets/Page3/Page3.css);
+@import url(./Componenets/Page4/Page4.css);
+@import url(./Componenets/Page5/Page5.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+.container{
+    max-width: 1440px ;
+    height: max;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: khaki; */
+}
+html{
+    font-size: 82.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+   background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background: #214971d0;
+  border-radius: 6px;
+
+}
