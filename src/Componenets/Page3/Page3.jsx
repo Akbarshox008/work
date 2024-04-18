@@ -1,13 +1,15 @@
 import React from "react";
 import bino from './icons/shahar.jpg'
+import backgroundVideo from './icons/shahrisabz.mp4';
+
 const Page3 = () => {
   return (
     <div className="container">
       <div className="box2">
         <h1 className="h2">My Region Of Shakhrisabz</h1>
-        <article  className="img">
-            <img src={bino} alt="" />
-        </article>
+        <video autoPlay loop muted className="background-video">
+        <source src={backgroundVideo} type="video/mp4" />
+      </video>
         <article className="item">
           <article className="hover">
           <h4>Shakhrisabz</h4>

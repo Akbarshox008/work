@@ -1,8 +1,10 @@
 import React from "react";
 
+ 
 const Page2 = () => {
   return (
     <div className="conatainer">
+      
       <div className="box">
         <article className="text">
           <h1 className="h1">Sohibquron Amir Temur Haykali </h1>
